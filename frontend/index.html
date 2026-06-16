@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeArena — Where code meets the arena</title>
+  </head>
+  <body>
+    <!-- Apply saved theme before React mounts to avoid a flash of the wrong theme. -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("oj_theme");
+          document.body.classList.add(t === "light" ? "light" : "dark");
+        } catch (e) {
+          document.body.classList.add("dark");
+        }
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
