@@ -1,5 +1,5 @@
 # CodeArena
-> **Where code meets the arena — write it, run it, prove it.**
+> **Where code meets the arena - write it, run it, prove it.**
 
 A competitive-programming style Online Judge built with **MongoDB, Express, React, Node.js (MERN)**.  
 Supports problem listing, code submission & automatic grading (C++, Python, Java),
